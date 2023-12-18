@@ -1,0 +1,106 @@
+
+body{
+    background-image:url(https://raw.githubusercontent.com/frontendmentorio/order-summary-component/fd2da322f6eb2ece0ac49bd55d7eb32958e5c34c/images/pattern-background-desktop.svg);
+    font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 16px;
+background-color:  hsl(225, 100%, 94%);
+margin: 70px;
+text-align: center;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.card-list{
+    background-color: aliceblue;
+   max-width:30%;
+   max-height: 30%;
+   align-items: center;
+   margin: auto;
+   border-radius: 20px;
+   
+}
+.image-wrapper{
+    max-width:100%;
+    border-radius: 20px 20px 0px 0px; 
+}
+.card-wrapper{
+text-align: center;
+
+}
+
+.card-description{
+    color: hsl(224, 23%, 55%);
+}
+.icon-plan{
+    background-color: hsl(220, 22%, 86%) ;
+    border-radius:15px ;
+    margin: 10px 30px;
+    opacity: 0.7;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.icon-music{
+    width: 45px;
+}
+.Annual-plan{
+    margin: 0px;
+}
+.card-price-wrapper{
+    margin: 0px;
+    
+}
+.plan{
+    text-align: center;
+}
+.link{
+    margin-top: 15px;
+    text-decoration: none;
+}
+.div{
+display: flex;
+justify-content:flex-start;
+align-items: center;
+gap: 10px;}
+
+.button-1 button{
+    background-color: blue;
+border-radius: 10px;
+border: 0px;
+margin: 10px 0px;
+padding: 15px 0px;
+width: 100%;
+margin-bottom: 0;
+box-shadow: 0px 5px 15px 0px rgba(0, 0, 255, 0.623);
+
+
+}
+.button-1{
+   color: aliceblue;
+   width: 1;
+   margin: 10px 0px;
+   text-decoration: none;
+   padding: 0px 30px;
+    
+}
+.button-2 button{
+
+border: 0px;
+margin-top: 0px;
+margin-bottom: 20px;
+padding: 15px 0px;
+width: 100%;
+background-color: rgba(240, 248, 255, 0.062);
+
+
+}
+.button-2{
+   color: rgb(14, 16, 17);
+ 
+   margin: 10px 0px;
+   text-decoration: none;
+   padding: 0px 30px;
+   
+}
